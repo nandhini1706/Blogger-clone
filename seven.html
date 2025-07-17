@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Join Millions - Blogger</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<style>
+    body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f57c00;
+  color: white;
+}
+
+.section {
+  padding: 60px 30px;
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+
+.cta {
+  padding: 15px 30px;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: #37474f;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cta:hover {
+  background-color: #263238;
+}
+
+.icon-grid {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.icon {
+  width: 60px;
+  height: 60px;
+  background-color: #ff9800;
+  border-radius: 50%;
+  position: relative;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+.blog-icon::after,
+.user-icon::after,
+.photo-icon::after,
+.doc-icon::after,
+.video-icon::after {
+  content: "B";
+  font-weight: bold;
+  font-size: 24px;
+  position: absolute;
+  top: 14px;
+  left: 19px;
+  color: white;
+}
+
+.user-icon::after {
+  content: "👤";
+  font-size: 22px;
+  left: 17px;
+}
+
+.photo-icon::after {
+  content: "🖼️";
+  font-size: 20px;
+  left: 16px;
+}
+
+.doc-icon::after {
+  content: "📄";
+  font-size: 20px;
+  left: 18px;
+}
+
+.video-icon::after {
+  content: "🎬";
+  font-size: 20px;
+  left: 18px;
+}
+blog-card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+.button-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #37474f;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.button-link:hover {
+  background-color: #263238;
+}
+</style>
+<body>
+  <div class="section join-others">
+    <h1>Join millions of others</h1>
+    <p>
+      Whether sharing your expertise, breaking news, or whatever’s on your mind, you’re in good company on Blogger.
+      Sign up to discover why millions of people have published their passions here.
+    </p>
+    <button class="cta">CREATE YOUR BLOG</button>
+
+    <div class="icon-grid">
+      <div class="icon blog-icon"></div>
+      <div class="icon user-icon"></div>
+      <div class="icon photo-icon"></div>
+      <div class="icon doc-icon"></div>
+      <div class="icon video-icon"></div>
+    </div>
+  </div>
+  <div> <main> <a href="Sixth.html"class="button-link">Previous</a></main></div>
+</body>
+</html>

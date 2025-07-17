@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Blogger Memory Page</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<style>
+    body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", sans-serif;
+  background-color: #c33c33;
+  color: white;
+}
+
+.container {
+  padding: 50px 30px;
+  text-align: center;
+  max-width: 700px;
+  margin: auto;
+}
+
+.container h1 {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+}
+
+.container p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+
+.images {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.video-frame {
+  width: 100px;
+  height: 70px;
+  background-color: #e87d7d;
+  border: 6px solid #d44c4c;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(-10deg);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.play-icon {
+  font-size: 24px;
+  color: white;
+}
+
+.photo-frame {
+  width: 120px;
+  height: 100px;
+  background-color: #f2b9b9;
+  border: 8px solid #d44c4c;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  transform: rotate(5deg);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.face {
+  width: 20px;
+  height: 20px;
+  background-color: #6d2626;
+  border-radius: 50%;
+  position: absolute;
+  top: 20px;
+}
+
+.face.second {
+  left: 40px;
+  background-color: #8c2d2d;
+}
+
+.face.third {
+  left: 70px;
+  top: 30px;
+  background-color: #a54040;
+}
+
+.paper {
+  width: 90px;
+  height: 120px;
+  background-color: #d67c7c;
+  transform: rotate(-4deg);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  border: 1px solid #b34a4a;
+}
+blog-card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+.button-link {
+  position: fixed;
+  left: 20px;   
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #37474f;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.button-link:hover {
+  background-color: #263238;
+}
+</style>
+<body>
+  <div class="container">
+    <h1>Hang onto your memories</h1>
+    <p>Save the moments that matter. Blogger lets you safely store thousands of posts, photos, and more with Google.</p>
+    <div class="images">
+      <div class="video-frame">
+        <div class="play-icon">▶</div>
+      </div>
+      <div class="photo-frame">
+        <div class="face"></div>
+        <div class="face second"></div>
+        <div class="face third"></div>
+      </div>
+      <div class="paper"></div>
+    </div>
+  </div>
+  <main> <a href="Fourth.html"class="button-link">Go to Page 4</a></main>
+    
+  
+</body>
+</html>
